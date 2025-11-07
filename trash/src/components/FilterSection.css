@@ -1,0 +1,44 @@
+.filter-section {
+  margin-bottom: 2rem;
+}
+
+.filter-group {
+  margin-bottom: 1.5rem;
+}
+
+.filter-group h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-group-inline {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.date-button,
+.apply-button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.date-button:hover,
+.apply-button:hover {
+  background-color: #0056b3;
+}
+
+.date-range-picker {
+  margin-top: 1rem;
+}

@@ -1,0 +1,53 @@
+.daily-breakdown {
+  margin: 2rem 0;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.breakdown-section {
+  margin: 1.5rem 0;
+}
+
+.breakdown-section h4 {
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.breakdown-table {
+  overflow-x: auto;
+}
+
+.breakdown-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.breakdown-table th,
+.breakdown-table td {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+  text-align: right;
+}
+
+.breakdown-table th:first-child,
+.breakdown-table td:first-child {
+  text-align: left;
+  position: sticky;
+  left: 0;
+  background-color: white;
+}
+
+.breakdown-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.breakdown-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.breakdown-table tr:hover {
+  background-color: #e9ecef;
+}
